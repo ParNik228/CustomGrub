@@ -183,7 +183,7 @@ QString UpdateTextModule(QString TextModule,QString newValue,QString oldValue,in
 
     if(way==1){
         QString nonSpaceStr;
-        QList<QString> newparam;
+        /*QList<QString> newparam;
         QList<QString> oldparam;
         if(newValue==""){
 
@@ -215,9 +215,9 @@ QString UpdateTextModule(QString TextModule,QString newValue,QString oldValue,in
 
             }
 
-        }
+        }*/
 
-        /*if(oldValue[oldValue.length()-1]==" "){
+        if(oldValue[oldValue.length()-1]==" "){
             for(int i=0;i<oldValue.length()-1;i++){
                 nonSpaceStr +=oldValue[i];
             }
