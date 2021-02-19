@@ -275,7 +275,7 @@ QString UpdateTextModule(QString TextModule,QString newValue,QString oldValue,in
             return TextModule;
 
 
-        }*/
+        }
     }
     if(way == 2){
 
